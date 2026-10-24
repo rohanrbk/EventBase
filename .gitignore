@@ -1,0 +1,10 @@
+.env
+production/.env
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+production/data/
+production/staticfiles/
+EventBase-demo*
+EventBase-narration.wav
