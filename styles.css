@@ -81,3 +81,18 @@
 .participant-keynote-material video{display:block;width:100%;max-height:350px;border-radius:6px;background:#1f2521}
 .participant-keynote-download{display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:var(--green);font-size:9px;font-weight:700;padding:8px 10px;border:1px solid #e4ece5;border-radius:6px;background:#f8fbf8}
 @media(max-width:850px){.keynote-resource-upload-grid{grid-template-columns:1fr}}
+
+.event-status-guide{font-size:9px;color:var(--muted)}
+#event-grid.manager-event-groups{display:grid;grid-template-columns:1fr;gap:20px}
+.manager-event-group{min-width:0}
+.manager-event-group-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:9px}
+.manager-event-group-head>div{display:flex;align-items:baseline;gap:9px}
+.manager-event-group-head h2{font:700 15px Manrope,sans-serif;margin:0;letter-spacing:-.25px}
+.manager-event-group-head p{font-size:9px;color:var(--muted);margin:0}
+.manager-event-group-count{font-size:8px;font-weight:700;color:#768177;background:#f0f3f0;border-radius:12px;padding:4px 8px}
+.manager-event-group .event-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.manager-event-empty{border:1px dashed #dfe5df;background:#fafbf9;border-radius:8px;padding:15px 17px;color:#899189;font-size:9px}
+.event-status.ongoing{background:#e7f4eb;color:#3d865b}
+.event-status.past{background:#efefed;color:#737970}
+@media(max-width:1120px){.manager-event-group .event-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.manager-event-group .event-grid{grid-template-columns:1fr}.manager-event-group-head{align-items:flex-start;gap:8px;flex-direction:column}}
