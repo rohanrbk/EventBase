@@ -48,3 +48,36 @@
 .profile-preference-row b{font-size:9px}
 .profile-preference-row small{font-size:8px;line-height:1.45;color:var(--muted)}
 .profile-modal .create-event-actions{margin-top:5px}
+
+.keynote-resource-upload-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:0 0 14px}
+.keynote-upload-panel{padding:18px;display:grid;gap:10px;align-content:start}
+.keynote-upload-panel>div{margin-bottom:3px}
+.keynote-upload-panel h2,.keynote-manager-library h2{font:700 15px Manrope,sans-serif;margin:0 0 5px}
+.keynote-upload-panel p,.keynote-manager-library .panel-heading p{font-size:10px;color:var(--muted);margin:0}
+.keynote-upload-panel>label{font-size:9px;font-weight:700;color:#59635a}
+.keynote-upload-panel .field[type=file]{height:auto;min-height:38px;padding:8px;font-size:9px;background:#fbfcfb}
+.keynote-upload-panel .button{width:max-content;height:34px;font-size:9px}
+.resource-upload-icon{width:34px;height:34px;border-radius:9px;display:grid;place-items:center}
+.resource-upload-icon.video{background:#eaf2f8;color:#54769e}.resource-upload-icon.slides{background:#edf5ef;color:#43805b}
+.upload-note{font-size:8px;color:var(--muted)}
+.keynote-storage-note{display:flex;gap:9px;align-items:flex-start;background:#f2f6f2;border:1px solid #e5ece5;border-radius:8px;padding:11px 13px;margin-bottom:14px;color:#52765b}
+.keynote-storage-note>span{font-size:13px}.keynote-storage-note p{font-size:9px;line-height:1.5;color:#6d786e;margin:0}
+.keynote-manager-library{padding:17px}
+.keynote-manager-library .panel-heading{margin-bottom:10px}
+.keynote-manager-item{display:flex;align-items:center;gap:11px;padding:10px 0;border-top:1px solid var(--line)}
+.keynote-manager-item:first-child{border-top:0}
+.keynote-manager-file-icon{width:32px;height:32px;flex:none;border-radius:7px;display:grid;place-items:center;background:#edf5ef;color:#3f805a;font-size:9px;font-weight:700}
+.keynote-manager-item>div:nth-child(2){min-width:0;display:grid;gap:4px;flex:1}
+.keynote-manager-item b{font-size:10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.keynote-manager-item small{font-size:8px;color:var(--muted)}
+.keynote-manager-item button{border:0;background:none;color:#a05048;font-size:9px}
+.keynote-uploaded-insights{margin-top:17px;padding-top:14px;border-top:1px solid var(--line)}
+.keynote-uploaded-insights h3{font:700 12px Manrope,sans-serif;margin:0 0 4px}
+.keynote-uploaded-insights>p{font-size:9px;color:var(--muted);margin:0 0 10px}
+.participant-keynote-material{padding:11px;border:1px solid var(--line);border-radius:8px;margin:8px 0;background:#fff}
+.participant-keynote-material-head{display:flex;align-items:center;gap:8px;margin-bottom:7px}
+.participant-keynote-material-head b{font-size:10px;word-break:break-word}
+.participant-keynote-material-head small{display:block;font-size:8px;color:var(--muted);margin-top:3px}
+.participant-keynote-material video{display:block;width:100%;max-height:350px;border-radius:6px;background:#1f2521}
+.participant-keynote-download{display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:var(--green);font-size:9px;font-weight:700;padding:8px 10px;border:1px solid #e4ece5;border-radius:6px;background:#f8fbf8}
+@media(max-width:850px){.keynote-resource-upload-grid{grid-template-columns:1fr}}
